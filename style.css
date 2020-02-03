@@ -1,0 +1,555 @@
+/* Global styles */
+
+body {
+    margin: 0;
+}
+
+.left {
+    float: left;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.green-color {
+    color:#74B433;
+}
+
+.gray-color {
+    color: #545454;
+}
+
+a, p, h1, li, h3 {
+    font-family: Arial,Arial, Helvetica, sans-serif;
+}
+
+.btn-w {
+    background-color: white;
+    color: black;
+    padding: 10px 25px;
+    border: 2px solid #74B433;
+    border-radius: 20px;
+}
+
+/* Header styles */
+header {
+    height: 700px;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)),
+        url("resources/scroll-effects1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Header Nav */
+
+header nav ul {
+    text-align: right;
+    margin: 0;
+}
+
+header nav ul li {
+    display:inline-block;
+    margin: 35px 15px;
+}
+
+header nav ul li a i {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    font-size: 0.7em;
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul li a:visited {
+    color: white;
+}
+
+header nav ul li a:hover {
+    color: #74B433;
+}
+
+/* Header text */
+
+#h-text {
+    width: 800px;
+    position: absolute;
+    left:40px;
+    bottom: 30px;
+}
+
+#h-text h1{
+    color: white;
+    font-size: 90px;
+    margin: 15px 0;
+}
+
+#h-text p {
+    display: inline;
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 100;
+}
+
+.btn-g {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #74B433;
+    color: white;
+    border-radius: 20px;
+    border-color: #74B433;
+    padding: 10px 25px;
+}
+
+#h-text button {
+    display: inline-block;
+    position: relative;
+    top: -15px;
+    margin-left: 15px;
+    font-size: 15px;
+}
+
+/* About us */
+
+/* First part */
+#about-us {
+    text-align: center;
+}
+
+#about-us > p:nth-of-type(1){
+    font-size: 30px;
+    font-weight: bold;
+    color: #545454;
+    margin-bottom: 0;
+}
+
+#about-us > p:nth-of-type(2) {
+    margin-bottom: 30px;
+}
+
+#about-us hr {
+    width: 400px;
+    background-color: #545454;
+}
+
+#about-us i {
+    background-color: white;
+    padding: 20px;
+    position: relative;
+    top: -38px;
+}
+
+/* Second part - container */
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+/* Text section */
+
+.au-img, .au-txt {
+    width: 50%;
+    margin-top: -30px;
+}
+
+.au-txt {
+    text-align: left;
+    margin-bottom: 70px;
+}
+
+.au-txt p:nth-of-type(1) {
+    font-size: 20px;
+}
+
+.au-txt span {
+    font-weight: bold;
+}
+
+.au-txt p:nth-of-type(2) {
+    color: #545454;
+    font-size: 0.8em;
+    border-top: 1px solid #545454;
+    padding-top: 15px;
+}
+
+.au-txt p:nth-of-type(3){
+    color: #545454;
+    font-size: 0.8em;
+}
+
+.au-txt ul {
+    padding: 0;
+}
+
+.au-txt ul li {
+    display: inline;
+    font-size: 0.8em;
+    color: #545454;
+}
+
+.au-txt li:nth-of-type(1) {
+    color: #74B433;
+}
+
+.au-txt li:nth-of-type(2) {
+    border-left: 1px solid #545454;
+    border-right: 1px solid #545454;
+    padding: 0 30px;
+    margin: 0 20px;
+}
+
+.au-txt button {
+    margin: 10px 0;
+}
+
+/* Image */
+
+.au-img img {
+    margin-top: 35px;
+}
+
+/* Project manager */
+
+#project-manager {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)),
+        url("resources/projectmanager-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pm-txt, .pm-img {
+    width: 50%;
+}
+
+.pm-img img {
+    border: 10px solid #74B433;
+    border-radius: 50%;
+    margin: 70px 0;
+}
+
+/* Project text */
+
+.pm-txt {
+    width: 400px;
+    margin-top: 60px;
+    color: #dad8d8;
+}
+
+.pm-txt h1{
+    font-size: 30px;
+}
+
+.pm-txt h3 {
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #74B433;
+}
+
+.pm-txt p:nth-of-type(1) {
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.pm-txt p:nth-of-type(2) {
+    font-size: 12px;
+    font-style: italic;
+    color: #c2bfbf;
+    border-left: 5px solid #74B433;
+    padding: 0 10px;
+}
+
+/* Project Is */
+
+.pm-txt i {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    line-height: 30px;
+    text-align: center; 
+    font-size: 20px;
+    margin-right: 10px;
+    color: #74B433;
+    border: 2px solid #74B433;
+    border-radius: 50%;
+}
+
+.pm-txt i:hover {
+    background-color: #74B433;
+    color:white;
+}
+
+/* Services */
+
+/* First part => Copied from About us and modified*/
+
+#services {
+    text-align: center;
+    background-color: #EFEFEF;
+}
+
+#services > p:nth-of-type(1){
+    font-size: 30px;
+    font-weight: bold;
+    color: #545454;
+    margin: 0;
+    padding-top: 50px;
+}
+
+#services > p:nth-of-type(2) {
+    margin-bottom: 30px;
+}
+
+#services hr {
+    width: 400px;
+    background-color: #545454;
+}
+
+#services > i {
+    background-color: #EFEFEF;
+    padding: 20px;
+    position: relative;
+    top: -38px;
+}
+
+/* second part, boxes */
+
+.serv-container {
+    width: 900px;
+    margin: 0 auto;
+    padding-bottom: 70px;
+}
+
+.box i {
+    color: #74B433;
+    font-size: 30px;
+    margin-top: 25px;
+    padding-top: 20px;
+}
+
+.box {
+    display: inline-block;
+    width: 250px;
+    height: 150px;
+    margin: 10px;
+    line-height: 30px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 0 2px #545454;
+    color: #74B433;
+}
+
+.box p {
+    margin: 0;
+    padding-bottom: 30px;;
+}
+
+/* Portfolio */
+
+#portfolio {
+    text-align: center;
+    background-color: white;
+}
+
+#portfolio > p:nth-of-type(1){
+    font-size: 30px;
+    font-weight: bold;
+    color: #545454;
+    margin: 0;
+    padding-top: 50px;
+}
+
+#portfolio > p:nth-of-type(2) {
+    margin-bottom: 30px;
+}
+
+#portfolio hr {
+    width: 400px;
+    background-color: #545454;
+}
+
+#portfolio > i {
+    background-color: white;
+    padding: 20px;
+    position: relative;
+    top: -38px;
+}
+
+#buttons {
+   margin-top: -30px;
+}
+
+/* Images */
+
+#img-sec {
+    width: 950px;
+    margin: 30px auto;
+}
+
+.img-box {
+    display: inline-block;
+    width: 280px;
+    margin: 15px 15px;
+}
+
+.img-box img {
+    border-radius: 5px;
+    
+}
+
+.img-box p:nth-of-type(odd) {
+    border-left: 3px solid #74B433;
+    text-align: left;
+    padding-left: 15px;
+    font-weight: bolder;
+    color: #545454;
+}
+
+.img-box p:nth-of-type(even) {
+    text-align: left;
+    color: #545454;
+}
+
+/* Team section */
+
+#team {
+    text-align: center;
+    background-color: #EFEFEF;
+}
+
+#team > p:nth-of-type(1){
+    font-size: 30px;
+    font-weight: bold;
+    color: #545454;
+    margin: 0;
+    padding-top: 50px;
+}
+
+#team > p:nth-of-type(2) {
+    margin-bottom: 30px;
+}
+
+#team hr {
+    width: 400px;
+    background-color: #545454;
+}
+
+#team > i {
+    background-color: #EFEFEF;
+    padding: 20px;
+    position: relative;
+    top: -38px;
+}    
+
+/* Team box */
+
+#t-sec {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.t-box {
+    display: inline-block;
+    width: 200px;
+    margin: 10px;
+    margin-top: -30px;
+    border-radius: 5px;
+    box-shadow: 0 0 2px #545454;
+    background-color: white;
+}
+
+.t-box img {
+    
+    border-bottom: 3px solid #74B433;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.t-box p:nth-of-type(odd) {
+    text-align: center;
+    font-weight: bolder;
+    color: #545454;
+}
+
+.t-box p:nth-of-type(even) {
+    text-align: center;
+    font-style: italic;
+    color: #545454;
+}
+
+.padding {
+    padding-bottom: 50px;
+    border-bottom: 3px solid #74B433;
+}
+
+/* Footer */
+
+footer {
+    background-color: black;
+    position: relative;
+}
+
+#f-sec {
+    width: 900px;
+    margin: 0 auto;
+    padding-top: 30px;
+    text-align: center;
+}
+
+#f-sec p {
+    color: white;
+    margin-top: 0;
+    margin: 20px;
+    padding: 10px;
+}
+
+#f-sec i {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    line-height: 30px;
+    text-align: center; 
+    font-size: 20px;
+    margin-right: 10px;
+    margin-bottom: 40px;
+    color: #74B433;
+    border: 2px solid #74B433;
+    border-radius: 50%;
+}
+
+#f-sec i:hover {
+    background-color: #74B433;
+    color:white;
+}
+
+.heart {
+    color: #74B433;
+}
+
+#arrow {
+    position: absolute;
+    bottom: 40px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    line-height: 30px;
+    text-align: center; 
+    font-size: 20px;
+    margin-right: 10px;
+    color: #74B433;
+    border: 2px solid #74B433;
+    border-radius: 50%;
+}
+
+#arrow:hover {
+    background-color: #74B433;
+    color:white;
+}
